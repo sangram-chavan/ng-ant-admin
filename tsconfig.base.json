@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2017",
+    "module": "es2020",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "paths": {
+      "@app/*": ["apps/ng-ant-admin/src/app/*"],
+      "@app": ["apps/ng-ant-admin/src/app"],
+      "@store/*": ["apps/ng-ant-admin/src/app/core/services/store/*"],
+      "@config/*": ["apps/ng-ant-admin/src/app/config/*"],
+      "@core/*": ["apps/ng-ant-admin/src/app/core/*"],
+      "@services/*": ["apps/ng-ant-admin/src/app/core/services/http/*"],
+      "@utils/*": ["apps/ng-ant-admin/src/app/utils/*"],
+      "@widget/*": ["apps/ng-ant-admin/src/app/widget/*"],
+      "@env/*": ["apps/ng-ant-admin/src/environments/*"],
+      "@shared/*": ["apps/ng-ant-admin/src/app/shared/*"],
+      "@assets/*": ["apps/ng-ant-admin/src/assets/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
